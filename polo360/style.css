@@ -76,15 +76,21 @@ button {
   border-radius: 3px;
   margin: 20px 0 35px 0;
 }
+.blue-btn {
+  color: #fff;
+  background: linear-gradient(to right, #4578af, #4e86bf, #4b84bc, #4578af);
+  border: 1px solid #004a80;
+}
 input {
   height: 32px;
   width: 100%;
   border: 1px solid #d8d8d8;
   border-radius: 3px;
-  margin-block: 18px;
+  margin: 18px 0 9px 0;
 }
-textarea{
+textarea {
   margin-block: 18px;
+  width: 100%;
 }
 
 .row {
@@ -105,17 +111,20 @@ textarea{
   padding-bottom: 10px;
   border-bottom: #b7b7b7 dashed 1px;
 }
-.second-part p{
+.second-part p {
   width: 299px;
-height: 57px;
-font-size: 12px;
-line-height: 14px;
-color: #444444;
-font-family: "Helvetica";
+  height: 57px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #444444;
+  font-family: "Helvetica";
+  padding-top: 15px;
 }
-.post{
+.post {
   display: flex;
+  justify-content: center;
   align-items: center;
+  border-bottom: #b7b7b7 dashed 1px;
 }
 footer {
   height: 11.4rem;
